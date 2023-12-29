@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.card {
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    width: 350px;
+}
+
+.image-card img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.image-victor {
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    width: 97px;
+    padding: 5px 5px 1px 5px;
+    background-color: white;
+    margin-top: -48px;
+    margin-left: 7rem;
+}
+
+.image-victor img {
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 20px 0px 0px 0px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+}
+
+span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin: -15px 0px 12px 0px;
+}
+
+hr {
+    width: 347px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+    font-size: 15px;
+}
+
+ul li {
+    margin: -23px 25px 9px 3px;
+}
+
+.image-bg {
+    display: flex;
+}
+
+.image-bg img:nth-child(1) {
+    width: 43rem;
+    height: 41rem;
+    margin-top: -50rem;
+    margin-left: -5rem;
+}
+
+.image-bg img:nth-child(2) {
+    position: fixed;
+    margin-top: -12rem;
+    margin-left: 40rem;
+    z-index: -2;
+}
+.attribution {
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.attribution a:hover {
+    color: black;
+}
+@media (max-width:600px) {
+    .image-bg img:nth-child(1) {
+        width: 18rem;
+        margin-top: -62rem;
+    }
+
+    .image-bg img:nth-child(2) {
+        position: fixed;
+        margin-left: 11rem;
+        z-index: -2;
+    }
+
+    
+}
